@@ -1,0 +1,16 @@
+READ A
+READ B
+FOR I IN $A $B
+DO
+IF [ $I -LT 20 ]
+THEN
+	IF [ $I -GT 0 ]
+	THEN 
+		ECHO "$I"
+	FI
+FI
+DONE
+
+	
+
+ 
